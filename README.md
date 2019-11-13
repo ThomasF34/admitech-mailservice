@@ -11,15 +11,15 @@ Luciano, Martin Cayuelas
 
 For information:
 ```
-apps:create APP_NAME
-apps:create test-APP_NAME
+apps:create mail-admitech
+apps:create test-mail-admitech
 
-docker-options:add APP_NAME build --build-arg "DD_API_KEY=<datadog api key>"
-docker-options:add test-APP_NAME build --build-arg "DD_API_KEY=<datadog api key>"
+docker-options:add mail-admitech build --build-arg "DD_API_KEY=<datadog api key>"
+docker-options:add test-mail-admitech build --build-arg "DD_API_KEY=<datadog api key>"
 
-config:set APP_NAME DD_API_KEY=<datadog api key>
-config:set test-APP_NAME DD_API_KEY=<datadog api key>
+config:set mail-admitech DD_API_KEY=<datadog api key>
+config:set test-mail-admitech DD_API_KEY=<datadog api key>
 
-proxy:ports-add APP_NAME http:80:3000
-proxy:ports-add test-APP_NAME http:80:3000
+proxy:ports-add mail-admitech http:80:3000
+proxy:ports-add test-mail-admitech http:80:3000
 ```

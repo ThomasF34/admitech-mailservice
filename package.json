@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThomasF34/admitech.git"
+    "url": "git+https://github.com/ThomasF34/admitech-mailservice.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ThomasF34/admitech/issues"
+    "url": "https://github.com/ThomasF34/admitech-mailservice/issues"
   },
-  "homepage": "https://github.com/ThomasF34/admitech#readme",
+  "homepage": "https://github.com/ThomasF34/admitech-mailservice#readme",
   "dependencies": {
     "connect-datadog": "0.0.9",
     "express": "^4.17.1",

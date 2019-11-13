@@ -4,7 +4,7 @@ import connectDatadog from 'connect-datadog';
 
 const dd_options = {
   'response_code': true,
-  'tags': ['app:APP_NAME']
+  'tags': ['app:mail-admitech']
 };
 
 const app = express();
@@ -22,7 +22,7 @@ const logger = createLogger({
     format.splat(),
     format.json()
   ),
-  defaultMeta: { service: 'APP_NAME' },
+  defaultMeta: { service: 'mail-admitech' },
   transports: [
     new transports.File({ filename: 'logs/test.log' })
   ]
